@@ -1,41 +1,44 @@
 import logo from './logo.svg';
 import './App.css';
-import './components/Component.css'
+// import './components/Component.css'
 // import About from './About'
-import react,{useState} from "react"
+// import react,{useState} from "react"
+import Comp1 from "./components/Comp1"
 
 
 function App() {
   
 
-  const[data,setData]=useState({
-    fname:"",
-    lname:"",
-    age:"",
-    email:"",
-    phno:"",
-    gender:""
-  })
+//   const[data,setData]=useState({
+//     fname:"",
+//     lname:"",
+//     age:"",
+//     email:"",
+//     phno:"",
+//     gender:""
+//   })
 
- const submitData=(event)=>{
-   event.preventDefault()
-  setData({...data,[event.target.name]:event.target.value})
-  console.log(data)
+//  const submitData=(event)=>{
+//    event.preventDefault()
+//   setData({...data,[event.target.name]:event.target.value})
+//   console.log(data)
  
 
- }
+//  }
     
-  return (
-    <div className='divStyle'>
-    <div>
-    <form>
-       <div>
-     <label className='lab'>
-      First Name
-    </label>
-      </div>
-    <div>
-      <input
+ return (
+  <div>
+  <Comp1/>
+{/* //     <div className='divStyle'>
+//     <div>
+//     <form>
+//        <div>
+//      <label className='lab'>
+//       First Name
+//     </label>
+//       </div>
+//     <div>
+//       <input
      type="text"
      name="fname"
      value={data.fname}
@@ -102,9 +105,8 @@ function App() {
     </div>
    
     
-    </div>
-  
-
+    </div> */}
+  </div>
   );    
 }
 

@@ -1,0 +1,36 @@
+.para{
+    color:aqua;
+    background-color: chocolate;
+}
+.divStyle{
+    background-color: rgb(181, 146, 214);
+    text-align: center;
+    border: 3px solid rgb(126, 126, 205);
+    justify-content: center;
+    height: 300px;
+    width: 230px;
+    margin-top: 150px;
+    margin-left: 500px;
+    margin-right: 500px;
+    border-radius: 10px;
+}
+/* .addStyle{
+    border: 3px solid black;
+} */
+.lab{
+    color: black;
+    font-size: 15px;
+}
+.btn{
+    border-radius: 8px;
+    text-align: center;
+    border-color: transparent;
+    padding-top: 5pxpx;
+    padding-left: 5pxpx;
+    padding-right: 5pxpx;
+    padding-bottom:3px ;
+    margin-top: 3px;
+    width: 50%;
+    font-size: 15px;
+    background-color: rgb(27, 159, 27);
+}
